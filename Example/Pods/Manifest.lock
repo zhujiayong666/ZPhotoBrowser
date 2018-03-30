@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (3.0.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - ZPhotoBrowser (0.1.0):
+    - SDWebImage
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - ZPhotoBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  ZPhotoBrowser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  ZPhotoBrowser: 87e1ed2b70cae7f5917f1706c5daa9538a355d27
+
+PODFILE CHECKSUM: d2160615fd5dcd8334b15f39df658457b0696c18
+
+COCOAPODS: 1.4.0

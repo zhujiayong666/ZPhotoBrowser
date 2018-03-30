@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'ZPhotoBrowser_Example' do
+  pod 'ZPhotoBrowser', :path => '../'
+
+  target 'ZPhotoBrowser_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end
