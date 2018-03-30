@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZPhotoBrowser'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZPhotoBrowser.'
+  s.summary          = '图片浏览器，支持本地图片和网络图片'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
